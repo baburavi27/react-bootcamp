@@ -1,8 +1,6 @@
 
 
-const CardComponent = (props) => {
-
-    const person = props.person;
+const CardComponent = ({ person }) => {
     return (
         <div id="card" className="card">
             <img src={person.img} />
